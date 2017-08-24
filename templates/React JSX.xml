@@ -1,0 +1,21 @@
+<templateSet group="React JSX">
+  <template name="ir" value="import React from 'react'&#10;" description="import react" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="crc" value="import React from 'react'&#10;&#10;const $ComponentName$ = () =&gt; (&#10;  &lt;div&gt;$ComponentName$&lt;/div&gt;&#10;)&#10;&#10;export default $ComponentName$&#10;" description="Create stateless react component" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="crt" value="import React from 'react'&#10;import { shallow } from 'enzyme'&#10;import $ComponentName$ from './$ComponentFile$'&#10;&#10;test('$TestName$', () =&gt; {&#10;  const wrapper = shallow(&lt;$ComponentName$ /&gt;)&#10;  $END$&#10;})&#10;" description="Create stateless react component test" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ComponentFile" expression="snakeCase(ComponentName)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TestName" expression="" defaultValue="it works" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
