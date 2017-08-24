@@ -10,10 +10,9 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
-  <template name="crt" value="import React from 'react'&#10;import { shallow } from 'enzyme'&#10;import $ComponentName$ from './$ComponentFile$'&#10;&#10;test('$TestName$', () =&gt; {&#10;  const wrapper = shallow(&lt;$ComponentName$ /&gt;)&#10;  $END$&#10;})&#10;" description="Create stateless react component test" toReformat="false" toShortenFQNames="true">
+  <template name="crt" value="import React from 'react'&#10;import { shallow } from 'enzyme'&#10;import $ComponentName$ from './$ComponentFile$'&#10;&#10;test('it render correctly', () =&gt; {&#10;  const wrapper = shallow(&lt;$ComponentName$ /&gt;)&#10;  $END$&#10;})&#10;" description="Create stateless react component test" toReformat="false" toShortenFQNames="true">
     <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ComponentFile" expression="snakeCase(ComponentName)" defaultValue="" alwaysStopAt="true" />
-    <variable name="TestName" expression="" defaultValue="it works" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
     </context>
