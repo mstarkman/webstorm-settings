@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="SCSS" injector-id="js">
+      <display-name>Styled-Components</display-name>
+      <prefix>.test-class {</prefix>
+      <suffix>}</suffix>
+      <place><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().matchesBrics("keyframes\\`(.*?)\\`")))]]></place>
+      <place><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().matchesBrics("styled\\(.*?\\)\\`(.*?)\\`")))]]></place>
+      <place><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().matchesBrics("styled\\..*?\\`(.*?)\\`")))]]></place>
+    </injection>
+  </component>
+</application>
