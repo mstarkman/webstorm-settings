@@ -4,13 +4,20 @@
     <property name="created">2017-08-20T10:49:48</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2017-08-20T14:49:31</property>
+    <property name="modified">2017-09-02T07:54:58</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Monaco" />
   <option name="CONSOLE_FONT_NAME" value="Monaco for Powerline" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <attributes>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value>
+        <option name="FOREGROUND" value="546453" />
+      </value>
+    </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
       <value>
         <option name="FONT_TYPE" value="1" />
