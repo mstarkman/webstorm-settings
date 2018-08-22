@@ -1,8 +1,8 @@
 <application>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="monofur for Powerline" />
-    <option name="LINE_SPACING" value="1.2" />
+    <option name="FONT_FAMILY" value="Roboto Mono Light for Powerline" />
+    <option name="LINE_SPACING" value="1.1" />
   </component>
   <component name="EditorSettings">
     <option name="IS_WHITESPACES_SHOWN" value="true" />
